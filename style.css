@@ -1,0 +1,63 @@
+body {
+    background-color: #0f4c5c;
+    display: flex;
+    justify-content: center;
+}
+.container {
+    background-color: #bde0fe;
+    margin-top: 100px;
+    padding: 30px 25px;
+    border-radius: 10px;
+    width: 400px;
+}
+.inputForm {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+input{
+    background-color: #bde0fe;
+    border-radius: 5px;
+    border: 1px solid black;
+    height: 25px;
+    font: 30%;
+    width: 100%;
+}
+.btnDiv {
+    margin-top: 40px;
+}
+/*input name*/
+.initial {
+    position: relative;
+    top: 9px;
+    left: 9px;
+    background-color: #bde0fe;
+    padding: 0px 3px;
+    transition: top 0.2s ease;
+}
+
+.changeLabels {
+    top: 0px;
+}
+/*button*/
+
+.btnDiv {
+    padding: 15px 30px;
+    display: flex;
+    justify-content: center;
+}
+.btnTag {
+    padding: 8px 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: #9381ff;
+    transition: all 0.5s ease;
+}
+.changeBtn {
+    margin-right: 230px;
+}
+.secondChangeBtn {
+    margin-left: 230px;
+}
+
+/*success*/
